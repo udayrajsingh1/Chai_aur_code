@@ -47,13 +47,15 @@ const obj3 = {...obj1,...obj2}
 // console.log(Object.values(obj3))
 // console.log(Object.entries(obj3))
 
+// ---> To check whether the object has the specific property or not
+// console.log(obj3.hasOwnProperty("6"))
+
 // ---> Object destructuring
 const course = {
     courseName: "Js in hindi",
     price: "999",
     courseInstructor: "Hitesh Sir"
 }
-
 
 // ---> avoid using course.courseInstructor instead of it, use only courseInstructor
 // const {courseInstructor} = (course)
