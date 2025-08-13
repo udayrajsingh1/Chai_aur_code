@@ -16,5 +16,12 @@
         }
         addLang("Python");
         addLang("C++");
+        addLang("Java");
+        function addOptiLang(langName){
+            const li = document.createElement('li');
+            li.appendChild(document.createTextNode(langName));
+            document.querySelector('.languages').appendChild(li);
+        }
+        addOptiLang("Ruby");
     </script>
 </html>
