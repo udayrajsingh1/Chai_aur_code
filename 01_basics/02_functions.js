@@ -11,7 +11,7 @@ function loginUserMessage(username){
 function calculatCartPrice(val1){
     return val1
 }
-// console.log(calculatCartPrice(20))
+// console.log(calculatCartPrice(20)) 
 
 
 // ---> Now using ... as rest operator when there is multiple values to pass as arguments 
