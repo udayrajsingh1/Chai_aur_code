@@ -1,0 +1,16 @@
+*{
+    background-color: rgb(226, 191, 232);
+}
+h1{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    border: 2px solid black;
+}
+.cal{
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
