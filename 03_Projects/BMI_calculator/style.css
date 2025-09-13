@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(226, 191, 232);
+    background-color: rgb(202, 174, 207);
 }
 h1{
     text-align: center;
@@ -7,10 +7,17 @@ h1{
 
 .button{
     text-align: center;
-    border: 2px solid black;
 }
 .cal{
     display: block;
     margin: 10px auto;
     padding: 10px;
+}
+.result{
+    margin-top: 10px;
+    height: 100px;
+    text-align: center;
+}
+input{
+    width: 50px;
 }
